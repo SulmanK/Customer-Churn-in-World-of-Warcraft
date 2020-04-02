@@ -8,44 +8,31 @@
 
 ## Objective
 * Complete Exploratory Data Analysis.
-* Utilize Machine Learning to cluster.
-* Deploy a dashboard to report findings.
-	* [Dashboard - PART I](https://pubg-eda-part1-dash.herokuapp.com/)
-	* [Dashboard - PART 2](https://pubg-eda-part2-dash.herokuapp.com/)
-	* [Project Summary](https://pubg-hacker-detection-summary.herokuapp.com/)	
-* Deploy an application for detecting hackers.
-	* [Hacker Detection Application](https://pubg-hacker-detection-app.herokuapp.com/)
-		* Please be patient in loading the application.
-	
+* Complete Survival Analysis.
+* Predict if a user will churn in a six-month period using classification algorithms.
+
 ## Background Information
-* Playerunknown's Battleground (PUBG) is a video game, which set the standard for preceding games in the Battle Royale genre. The main goal is to SURVIVE at all costs.
+* World of Warcraft is a massively multiplayer online video game released on November 23, 2004. Before this era, MMORPG’s catered to a small segment of video gamers. But with the massive success of WoW, various video game companies decided to invest resources into developing large-scale titles. Video games were sought out as movie-like experiences, where you follow a single protagonist. However, WoW did not follow a single protagonist, but all the users playing the video game. Not only was the main objective different from single-player games, but the pricing model. Traditional games followed a single upfront fee. In addition to the single upfront fee, WoW had a monthly subscription to play the game. With customer subscriptions in mind, we can apply the use of churn prediction to not only predict whether a customer will unsubscribe from the service but explore the user’s playing behavior to obtain more insight into user playing patterns. The churn problem is somewhat complex due to the nature of not having a one size fits all solution – as different services define churn in a variety of ways.
 
 ## Process:
-* Exploratory Data Analysis conducted utilizing various python packages (Numpy, Matplotlib, Pandas, and Plotly).
-* Clustering Algorithms (Sci-Kit Learn)
+* Exploratory Data Analysis conducted utilizing various python packages (Numpy, Matplotlib, Pandas, and Plotly).'
+* Survival Analysis (Lifelines)
+    * Kaplan Meier Estimator
+* Binary Classification Algorithms (Sci-Kit Learn)
+    * Logistic Regression
+    * Support Vector Machines
+    * K-nearest neighbors
+    * Random Forests
+
 
 
 ## Table of Contents:
 * Part I: Exploratory Data Analysis
-	* [Jupyter Notebook](https://github.com/SulmanK/PUBG_clustering-player-behavior-for-cheaters/blob/master/PUBG_EDA-Dashboard.ipynb)
-	* [Dashboard -EDA PART I](https://pubg-eda-part1-dash.herokuapp.com/)
-	* [Dashboard -EDA PART 2](https://pubg-eda-part2-dash.herokuapp.com/)
-	
-* Part II: Clustering
-    * Utilize various clustering algorithms for detecting cheaters or hackers.
-    		
-		* [Jupyter Notebook: K-means](https://github.com/SulmanK/PUBG_clustering-player-behavior-for-cheaters/blob/master/PUBG_Clustering-K-means.ipynb)
-		* [Jupyter Notebook: DBSCAN](https://github.com/SulmanK/PUBG_clustering-player-behavior-for-cheaters/blob/master/PUBG_Clustering-DBSCAN.ipynb)
-		* [Jupyter Notebook: Anomaly Detection](https://github.com/SulmanK/PUBG_clustering-player-behavior-for-cheaters/blob/master/PUBG_Clustering-AnomalyDetection.ipynb)
-   * Utilize PCA + previous clustering algorithms (All features).
-   		* [Jupyter Notebook: K-means](https://github.com/SulmanK/PUBG_clustering-player-behavior-for-cheaters/blob/master/PUBG_Clustering-PCA-K-means(All%20Features).ipynb)
-		* [Jupyter Notebook: DBSCAN](https://github.com/SulmanK/PUBG_clustering-player-behavior-for-cheaters/blob/master/PUBG_Clustering-PCA-DBSCAN(All%20Features).ipynb)
-		* [Jupyter Notebook: Anomaly Detection](https://github.com/SulmanK/PUBG_clustering-player-behavior-for-cheaters/blob/master/PUBG_Clustering-PCA-AnomalyDetection(All%20Features).ipynb)
-   * Utilize PCA + previous clustering algorithms (Selected features).
-   		* [Jupyter Notebook: K-means](https://github.com/SulmanK/PUBG_clustering-player-behavior-for-cheaters/blob/master/PUBG_Clustering-PCA-K-means(Selected%20Features).ipynb)
-		* [Jupyter Notebook: DBSCAN](https://github.com/SulmanK/PUBG_clustering-player-behavior-for-cheaters/blob/master/PUBG_Clustering-PCA-DBSCAN(Selected%20Features).ipynb)
-		* [Jupyter Notebook: Anomaly Detection](https://github.com/SulmanK/PUBG_clustering-player-behavior-for-cheaters/blob/master/PUBG_Clustering-PCA-AnomalyDetection(Selected%20Features).ipynb)
-    * Pertinent Deliverables
+    * EDA
+* Part II: Churn Prediction
+    * Survival Analysis
+    * Binary Classification
+* Pertinent Deliverables
     		
 		* [Project Summary](https://pubg-hacker-detection-summary.herokuapp.com/)
 		* [Hacker Detection Application](https://pubg-hacker-detection-app.herokuapp.com/)
