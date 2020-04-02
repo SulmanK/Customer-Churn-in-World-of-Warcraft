@@ -15,8 +15,7 @@
 * World of Warcraft is a massively multiplayer online video game released on November 23, 2004. Before this era, MMORPG’s catered to a small segment of video gamers. But with the massive success of WoW, various video game companies decided to invest resources into developing large-scale titles. Video games were sought out as movie-like experiences, where you follow a single protagonist. However, WoW did not follow a single protagonist, but all the users playing the video game. Not only was the main objective different from single-player games, but the pricing model. Traditional games followed a single upfront fee. In addition to the single upfront fee, WoW had a monthly subscription to play the game. With customer subscriptions in mind, we can apply the use of churn prediction to not only predict whether a customer will unsubscribe from the service but explore the user’s playing behavior to obtain more insight into user playing patterns. The churn problem is somewhat complex due to the nature of not having a one size fits all solution – as different services define churn in a variety of ways.
 
 ## Process:
-* Dataset
-[Dataset Link](https://www.kaggle.com/mylesoneill/warcraft-avatar-history)
+* [Dataset](https://www.kaggle.com/mylesoneill/warcraft-avatar-history)
 * Exploratory Data Analysis conducted utilizing various python packages (Numpy, Matplotlib, Pandas, and Plotly).'
 * Survival Analysis (Lifelines)
     * Kaplan Meier Estimator
@@ -35,11 +34,13 @@
     * Survival Analysis
     * Binary Classification
 * Pertinent Deliverables
+	* [Jupyter Notebook](https://github.com/SulmanK/Customer-Churn-in-World-of-Warcraft/blob/master/Customer%20Churn%20in%20World%20of%20Warcraft.ipynb)
 	* [Project Report](https://github.com/SulmanK/Customer-Churn-in-World-of-Warcraft/blob/master/Customer%20Churn%20in%20World%20of%20Warcraft_Report.pdf)
 	
 * References
 	* Yeng-Ting Lee, Kuan-Ta Chen, Yun-Maw Cheng, and Chin-Laung Lei, "World of Warcraft Avatar History Dataset," In Proceedings of ACM Multimedia Systems 2011, Feb 2011. 
-* M. Oneil, "myles-oneill/WoWAH-parser", GitHub, 2020. [Online]. Available: https://github.com/myles-oneill/WoWAH-parser. [Accessed: 18- Mar- 2020]. 
+	
+	* M. Oneil, "myles-oneill/WoWAH-parser", GitHub, 2020. [Online]. Available: https://github.com/myles-oneill/WoWAH-parser. [Accessed: 18- Mar- 2020]. 
 
 	*  L. Zhao et al., "On the restricted mean survival time curve in survival analysis", Biometrics, vol. 72, no. 1, pp. 215-221, 2015. Available: 10.1111/biom.12384. 
 
