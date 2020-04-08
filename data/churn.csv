@@ -1,4 +1,4 @@
-,char_id,guild,total_timestamps,unique_days,max_level,min_month,max_month,Average_Hour,Average_Playing_density,Playing_after_6_months
+char_id,guild,total_timestamps,unique_days,max_level,min_month,max_month,Average_Hour,Average_Playing_density,Playing_after_6_months
 0,2,1,1,1,18,12,12,0.16666666666666666,0.03278688524590164,0
 1,7,1,655,50,71,1,12,2.183333333333333,0.1366120218579235,1
 2,9,1,2739,133,70,1,6,3.4323308270676693,0.726775956284153,1
