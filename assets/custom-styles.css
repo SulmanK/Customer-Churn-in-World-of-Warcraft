@@ -1,0 +1,89 @@
+@/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Banner
+- Scalable Container
+- Remove Undo
+/* Banner
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.banner {
+    height: 75px;
+    background-color: #fc8600; /* Machine Learning Color is orange */
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.banner h2 {
+    color: #a5b1cd;
+    display: inline-block;
+    font-family: 'Helvetica';
+    font-size:4rem;
+    line-height:1;
+}
+
+.banner Img {
+    position: relative;
+    float: right;
+    height: 75px;
+}
+
+/* Scalable Container
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container.scalable {
+    width: 90%;
+    max-width: none;
+}
+
+/* Remove Undo
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+._dash-undo-redo {
+  display: none;
+}
+
+/* Dropdown
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.Select-value {
+    cursor: pointer;
+	color: #a5b1cd;
+}
+
+.Select-control {
+    color: #a5b1cd !important;
+}
+
+.Select {
+    color: #a5b1cd !important;
+}
+
+.Select-menu-outer {
+    background-color: #282b38 !important;
+    border: 1px solid #282b38 !important;
+	color: #a5b1cd;
+}
+
+.Select div {
+    background-color: #282b38 !important;
+	color: #a5b1cd;
+}
+
+.Select-menu-outer div:hover {
+    background-color: #a5b1cd !important;
+    cursor: pointer;
+	color: #a5b1cd;
+}
+
+.Select-value-label {
+    color: #a5b1cd !important;
+	color: #a5b1cd;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    border: 1px solid #a5b1cd !important;
+    
+}
+body { margin: 0; }
+
+
+
