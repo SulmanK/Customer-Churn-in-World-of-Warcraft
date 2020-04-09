@@ -36,6 +36,8 @@
 * Pertinent Deliverables
 	* [Jupyter Notebook](https://github.com/SulmanK/Customer-Churn-in-World-of-Warcraft/blob/master/Customer%20Churn%20in%20World%20of%20Warcraft.ipynb)
 	* [Project Report](https://github.com/SulmanK/Customer-Churn-in-World-of-Warcraft/blob/master/Customer%20Churn%20in%20World%20of%20Warcraft_Report.pdf)
+	* [Dashboard](https://customer-churn-in-wow-app.herokuapp.com/)
+		* Disclaimer: Due to memory constraints from Heroku API (free server), less data was used in fitting the models (25000 instead of 35000), and therefore the results will be different than the values listed in the report.  
 	
 * References
 	* Yeng-Ting Lee, Kuan-Ta Chen, Yun-Maw Cheng, and Chin-Laung Lei, "World of Warcraft Avatar History Dataset," In Proceedings of ACM Multimedia Systems 2011, Feb 2011. 
