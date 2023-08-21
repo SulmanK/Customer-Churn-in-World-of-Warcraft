@@ -37,7 +37,7 @@
 * Pertinent Deliverables
 	* [Jupyter Notebook](https://github.com/SulmanK/Customer-Churn-in-World-of-Warcraft/blob/master/Customer%20Churn%20in%20World%20of%20Warcraft.ipynb)
 	* [Project Report](https://github.com/SulmanK/Customer-Churn-in-World-of-Warcraft/blob/master/Customer%20Churn%20in%20World%20of%20Warcraft_Report.pdf)
-	* [Dashboard](http://customer-churn-in-wow.us-east-1.elasticbeanstalk.com/)
+	* [Dashboard](http://customer-churn-in-wow-app.us-east-1.elasticbeanstalk.com/)
 		* Disclaimer: Due to memory constraints from Heroku API (free server), less data was used in fitting the models (17500 instead of 35000), and therefore the results will be different than the values listed in the report.  
 
 * Demo
