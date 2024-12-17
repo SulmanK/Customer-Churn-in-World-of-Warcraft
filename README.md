@@ -15,8 +15,9 @@
 * World of Warcraft is a massively multiplayer online video game released on November 23, 2004. Before this era, MMORPG’s catered to a small segment of video gamers. But with the massive success of WoW, various video game companies decided to invest resources into developing large-scale titles. Video games were sought out as movie-like experiences, where you follow a single protagonist. However, WoW did not follow a single protagonist, but all the users playing the video game. Not only was the main objective different from single-player games, but the pricing model. Traditional games followed a single upfront fee. In addition to the single upfront fee, WoW had a monthly subscription to play the game. With customer subscriptions in mind, we can apply the use of churn prediction to not only predict whether a customer will unsubscribe from the service but explore the user’s playing behavior to obtain more insight into user playing patterns. The churn problem is somewhat complex due to the nature of not having a one size fits all solution – as different services define churn in a variety of ways.
 
 ---
-```plaintext
+
 ## Repository Structure
+```plaintext
 Customer-Churn-in-World-of-Warcraft/
 ├── assets/                                 # Directory containing asset files
 ├── data/                                   # Directory containing data files
