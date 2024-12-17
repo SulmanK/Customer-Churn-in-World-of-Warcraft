@@ -19,14 +19,14 @@
 ## Repository Structure
 ```plaintext
 Customer-Churn-in-World-of-Warcraft/
-├── assets/                                 # Directory containing asset files
-├── data/                                   # Directory containing data files
-├── .gitattributes                          # Git configuration attributes
-├── Animation.gif                           # GIF demonstrating the project's functionality
-├── Customer Churn Application Dashboard.ipynb  # Jupyter Notebook for the application dashboard
-├── Customer Churn in World of Warcraft.ipynb   # Jupyter Notebook for the main analysis
-├── Customer Churn in World of Warcraft_Report.pdf  # PDF report of the analysis
-└── README.md                               # Overview of the repository
+├── assets/                                 			# Directory containing asset files
+├── data/                                   			# Directory containing data files
+├── .gitattributes                          			# Git configuration attributes
+├── Animation.gif                           			# GIF demonstrating the project's functionality
+├── Customer Churn Application Dashboard.ipynb  		# Jupyter Notebook for the application dashboard
+├── Customer Churn in World of Warcraft.ipynb   		# Jupyter Notebook for the main analysis
+├── Customer Churn in World of Warcraft_Report.pdf  		# PDF report of the analysis
+└── README.md                               			# Overview of the repository
 ```
 ---
 
